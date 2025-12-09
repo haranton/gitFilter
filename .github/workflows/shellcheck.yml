@@ -15,7 +15,7 @@ jobs:
       - name: Run ShellCheck
         uses: ludeeus/action-shellcheck@master
         with:
-          scandir: './officeToTxt.sh'
+          scandir: './officeToTxt.sh ./test-broken.sh'
           
           severity: error
           
